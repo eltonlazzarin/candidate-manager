@@ -1,0 +1,58 @@
+[
+  {
+    "gender": "female",
+    "name": {
+      "title": "Mrs",
+      "first": "Leslie",
+      "last": "Robinson"
+    },
+    "location": {
+      "street": {
+        "number": 772,
+        "name": "Blossom Hill Rd"
+      },
+      "city": "Pembroke Pines",
+      "state": "Kansas",
+      "country": "United States",
+      "postcode": 67077,
+      "coordinates": {
+        "latitude": "84.7490",
+        "longitude": "12.4825"
+      },
+      "timezone": {
+        "offset": "-10:00",
+        "description": "Hawaii"
+      }
+    },
+    "email": "leslie.robinson@example.com",
+    "login": {
+      "uuid": "9c6110a5-a12b-4137-b240-4f1caecf425d",
+      "username": "angryfish990",
+      "password": "craving",
+      "salt": "elThpBoi",
+      "md5": "1f483446efa4d2ced2f146eaed85aa14",
+      "sha1": "9361e0bbd2b2f8cf9eac0f4bbb5ff0939523b500",
+      "sha256": "6b6165d8ed5efe9eb98b8bc6510656e4fb12b308dc44c5c930228c3a97446fe2"
+    },
+    "dob": {
+      "date": "1949-04-05T17:42:54.793Z",
+      "age": 71
+    },
+    "registered": {
+      "date": "2016-03-14T10:42:48.396Z",
+      "age": 4
+    },
+    "phone": "(889)-213-8137",
+    "cell": "(236)-961-0874",
+    "id": {
+      "name": "SSN",
+      "value": "692-22-5134"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/65.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/65.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/65.jpg"
+    },
+    "nat": "US"
+  }
+]
