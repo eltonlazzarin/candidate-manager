@@ -1,0 +1,114 @@
+[
+  {
+    "gender": "male",
+    "name": {
+      "title": "Mr",
+      "first": "Pat",
+      "last": "Parker"
+    },
+    "location": {
+      "street": {
+        "number": 260,
+        "name": "Forest Ln"
+      },
+      "city": "Alexandria",
+      "state": "Colorado",
+      "country": "United States",
+      "postcode": 78975,
+      "coordinates": {
+        "latitude": "-56.0441",
+        "longitude": "-63.2217"
+      },
+      "timezone": {
+        "offset": "+9:30",
+        "description": "Adelaide, Darwin"
+      }
+    },
+    "email": "pat.parker@example.com",
+    "login": {
+      "uuid": "b45aea10-db7b-4e43-b824-7f4bae0401c2",
+      "username": "heavyladybug612",
+      "password": "ariana",
+      "salt": "hICHkSL6",
+      "md5": "77c64b369cd6b974c1fbda9cd02a0cfd",
+      "sha1": "b0239ce4e49e2d3c2d29dc1215e5d4fdbe4b376d",
+      "sha256": "e263d66db337fa2ca99eaf5d85594357337e1e3a4458f5a26e5b15311740f430"
+    },
+    "dob": {
+      "date": "1995-12-19T18:46:05.609Z",
+      "age": 25
+    },
+    "registered": {
+      "date": "2005-11-15T16:45:59.419Z",
+      "age": 15
+    },
+    "phone": "(974)-560-6713",
+    "cell": "(510)-002-1201",
+    "id": {
+      "name": "SSN",
+      "value": "367-24-8265"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/6.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/6.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/6.jpg"
+    },
+    "nat": "US"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Ms",
+      "first": "Rocio",
+      "last": "Parra"
+    },
+    "location": {
+      "street": {
+        "number": 2589,
+        "name": "Calle de La Democracia"
+      },
+      "city": "Vigo",
+      "state": "Galicia",
+      "country": "Spain",
+      "postcode": 56438,
+      "coordinates": {
+        "latitude": "10.4103",
+        "longitude": "-15.4779"
+      },
+      "timezone": {
+        "offset": "+9:00",
+        "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+      }
+    },
+    "email": "rocio.parra@example.com",
+    "login": {
+      "uuid": "82b9e177-9f30-4fc6-9b1a-c25811104331",
+      "username": "ticklishpanda399",
+      "password": "babygirl",
+      "salt": "dRXf94Ep",
+      "md5": "0eedd00af98c6d0ad44e425233a931b3",
+      "sha1": "9952d736c962c74340d243f3ac199dd007c22197",
+      "sha256": "c98618c07efdcb97215de8396b159c469f04509c8ecd7c3f11d9b6d5775df53b"
+    },
+    "dob": {
+      "date": "1979-03-27T10:01:50.296Z",
+      "age": 41
+    },
+    "registered": {
+      "date": "2018-05-22T11:48:51.210Z",
+      "age": 2
+    },
+    "phone": "944-866-947",
+    "cell": "661-749-076",
+    "id": {
+      "name": "DNI",
+      "value": "24976695-O"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/58.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/58.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/58.jpg"
+    },
+    "nat": "ES"
+  }
+]
