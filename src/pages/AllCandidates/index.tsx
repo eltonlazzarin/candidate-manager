@@ -7,21 +7,32 @@ import logo from '../../assets/images/logo.png';
 
 import api from '../../services/api';
 
+import allcandidates from '../../services/allcandidates.json';
+
 interface Avatar {
+  email: string;
+  phone: string;
   picture: {
     thumbnail: string;
   };
   login: {
     uuid: string;
   };
+  name: {
+    first: string;
+  };
+  location: {
+    city: string;
+  };
 }
 
 export default function AllCandidates() {
-  const [avatar, setAvatar] = useState<Avatar[]>([]);
+  const [avatarAccount, setAvatarAccount] = useState<Avatar[]>([]);
+  const [avatar, setAvatar] = useState(allcandidates);
 
   useEffect(() => {
     api.get('api').then((response) => {
-      setAvatar(response.data.results);
+      setAvatarAccount(response.data.results);
     });
   }, []);
 
@@ -35,11 +46,11 @@ export default function AllCandidates() {
             <input placeholder="Buscar" />
 
             <span>
-              {avatar.map((item) => (
+              {avatarAccount.map((item) => (
                 <img
                   key={item.login.uuid}
                   src={item.picture.thumbnail}
-                  alt="Alt"
+                  alt={item.name.first}
                 />
               ))}
             </span>
@@ -74,94 +85,28 @@ export default function AllCandidates() {
         </aside>
 
         <section className="candidateslist">
-          <main>
-            <div>
-              {avatar.map((item) => (
-                <img
-                  key={item.login.uuid}
-                  src={item.picture.thumbnail}
-                  alt="Alt"
-                />
-              ))}
-              <h2>Elton</h2>
-            </div>
-            <div>
-              <p>elton.lazzarin@outlook.com</p>
-              <p>(960)-861-1890</p>
-              <p>São José do Rio Preto - SP</p>
-            </div>
-            <div>
-              <MdDelete size={26} color="#a9a9a9" />
-              <MdSelectAll size={26} color="#a9a9a9" />
-              <MdCheck size={26} color="#a9a9a9" />
-            </div>
-          </main>
-          <main>
-            <div>
-              {avatar.map((item) => (
-                <img
-                  key={item.login.uuid}
-                  src={item.picture.thumbnail}
-                  alt="Alt"
-                />
-              ))}
-              <h2>Elton</h2>
-            </div>
-            <div>
-              <p>elton.lazzarin@outlook.com</p>
-              <p>(960)-861-1890</p>
-              <p>São José do Rio Preto - SP</p>
-            </div>
-            <div>
-              <MdDelete size={26} color="#a9a9a9" />
-              <MdSelectAll size={26} color="#a9a9a9" />
-              <MdCheck size={26} color="#a9a9a9" />
-            </div>
-          </main>
-          <main>
-            <div>
-              {avatar.map((item) => (
-                <img
-                  key={item.login.uuid}
-                  src={item.picture.thumbnail}
-                  alt="Alt"
-                />
-              ))}
-              <h2>Elton</h2>
-            </div>
-            <div>
-              <p>elton.lazzarin@outlook.com</p>
-              <p>(960)-861-1890</p>
-              <p>São José do Rio Preto - SP</p>
-            </div>
-            <div>
-              <MdDelete size={26} color="#a9a9a9" />
-              <MdSelectAll size={26} color="#a9a9a9" />
-              <MdCheck size={26} color="#a9a9a9" />
-            </div>
-          </main>
-          <main>
-            <div>
-              {avatar.map((item) => (
-                <img
-                  key={item.login.uuid}
-                  src={item.picture.thumbnail}
-                  alt="Alt"
-                />
-              ))}
-              <h2>Elton</h2>
-            </div>
-            <div>
-              <p>elton.lazzarin@outlook.com</p>
-              <p>(960)-861-1890</p>
-              <p>São José do Rio Preto - SP</p>
-            </div>
-            <div>
-              <MdDelete size={26} color="#a9a9a9" />
-              <MdSelectAll size={26} color="#a9a9a9" />
-              <MdCheck size={26} color="#a9a9a9" />
-            </div>
-          </main>
+          {avatar.map((item) => (
+            <main key={item.login.uuid}>
+              <div>
+                <img src={item.picture.thumbnail} alt={item.name.first} />
+                <h2>{item.name.first}</h2>
+              </div>
+
+              <div>
+                <p>{item.email}</p>
+
+                <p>{item.phone}</p>
+
+                <p>{item.location.city}</p>
+              </div>
+
+              <div>
+                <MdDelete size={26} color="#a9a9a9" />
+                <MdSelectAll size={26} color="#a9a9a9" />
+                <MdCheck size={26} color="#a9a9a9" />
+              </div>
+            </main>
+          ))}
         </section>
       </div>
     </>
