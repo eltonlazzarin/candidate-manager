@@ -27,6 +27,7 @@ interface Avatar {
 }
 
 export default function CandidatesAttended() {
+  const [textInput, setTextInput] = useState('');
   const [avatarAccount, setAvatarAccount] = useState<Avatar[]>([]);
   const [candidates, setCandidates] = useState(allcandidates);
 
@@ -43,7 +44,11 @@ export default function CandidatesAttended() {
           <nav>
             <img src={logo} alt="Company Logo" />
 
-            <input placeholder="Buscar" />
+            <input
+              value={textInput}
+              onChange={(event) => setTextInput(event.target.value)}
+              placeholder="Buscar"
+            />
 
             <span>
               {avatarAccount.map((item) => (
@@ -85,29 +90,56 @@ export default function CandidatesAttended() {
         </aside>
 
         <section className="candidateslist">
-          {candidates.map((item) => (
-            <main key={item.login.uuid}>
-              <Link to="/candidate">
-                <div>
-                  <img src={item.picture.thumbnail} alt={item.name.first} />
-                  <h2>{item.name.first}</h2>
-                </div>
-              </Link>
+          {!textInput
+            ? candidates.map((item) => (
+                <main key={item.login.uuid}>
+                  <Link to="/candidate">
+                    <div>
+                      <img src={item.picture.thumbnail} alt={item.name.first} />
+                      <h2>{item.name.first}</h2>
+                    </div>
+                  </Link>
+                  <div>
+                    <p>{item.email}</p>
 
-              <div>
-                <p>{item.email}</p>
+                    <p>{item.phone}</p>
 
-                <p>{item.phone}</p>
+                    <p>{item.location.city}</p>
+                  </div>
 
-                <p>{item.location.city}</p>
-              </div>
+                  <div>
+                    <MdDelete size={26} color="#a9a9a9" />
+                    <MdSelectAll size={26} color="#a9a9a9" />
+                  </div>
+                </main>
+              ))
+            : candidates
+                .filter((candidate) => candidate.name.first === textInput)
+                .map((item) => (
+                  <main key={item.login.uuid}>
+                    <Link to="/candidate">
+                      <div>
+                        <img
+                          src={item.picture.thumbnail}
+                          alt={item.name.first}
+                        />
+                        <h2>{item.name.first}</h2>
+                      </div>
+                    </Link>
+                    <div>
+                      <p>{item.email}</p>
 
-              <div>
-                <MdDelete size={26} color="#a9a9a9" />
-                <MdSelectAll size={26} color="#a9a9a9" />
-              </div>
-            </main>
-          ))}
+                      <p>{item.phone}</p>
+
+                      <p>{item.location.city}</p>
+                    </div>
+
+                    <div>
+                      <MdDelete size={26} color="#a9a9a9" />
+                      <MdSelectAll size={26} color="#a9a9a9" />
+                    </div>
+                  </main>
+                ))}
         </section>
       </div>
     </>
