@@ -1,0 +1,100 @@
+.candidate {
+  width: 100vw;
+  height: 100vh;
+}
+
+.candidate header {
+  height: 350px;
+  background: #0c3455;
+}
+
+.candidate span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  width: 38px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 26px;
+  left: 26px;
+  transition: opacity 0.2s;
+  box-shadow: 0px 1px 9px 3px rgba(0, 0, 0, 0.2);
+}
+
+.candidate span:hover {
+  opacity: 0.9;
+}
+
+.candidate span svg {
+  margin-top: 6px;
+}
+
+.candidate main {
+  position: absolute;
+  height: 560px;
+  width: 780px;
+  background: #fff;
+  top: 120px;
+  left: 340px;
+  box-shadow: 0px 1px 9px 3px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  height: 170px;
+  background: #f5f5f5;
+}
+
+.divider {
+  border: 1px solid #dcdcdc;
+}
+
+.candidatedata {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 390px;
+  background: #fff;
+}
+
+.candidatedata img {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  position: absolute;
+  top: 60px;
+  left: 280px;
+  border: 1px solid #dcdcdc;
+}
+
+.candidatedata div {
+  text-align: center;
+}
+
+.candidatedata div p {
+  font-size: 24px;
+  color: #a9a9a9;
+  margin-bottom: 16px;
+}
+
+.candidatedata div p + p {
+  font-size: 38px;
+  font-weight: bold;
+  color: #4f4f4f;
+}
+
+.icons {
+  width: 500px;
+}
+
+.icons div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons div svg:hover {
+  fill: #8dc63f;
+}
