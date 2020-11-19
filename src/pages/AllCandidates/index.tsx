@@ -28,7 +28,7 @@ interface Avatar {
 
 export default function AllCandidates() {
   const [avatarAccount, setAvatarAccount] = useState<Avatar[]>([]);
-  const [avatar, setAvatar] = useState(allcandidates);
+  const [candidates, setCandidates] = useState(allcandidates);
 
   useEffect(() => {
     api.get('api').then((response) => {
@@ -85,13 +85,14 @@ export default function AllCandidates() {
         </aside>
 
         <section className="candidateslist">
-          {avatar.map((item) => (
+          {candidates.map((item) => (
             <main key={item.login.uuid}>
-              <div>
-                <img src={item.picture.thumbnail} alt={item.name.first} />
-                <h2>{item.name.first}</h2>
-              </div>
-
+              <Link to="/candidate">
+                <div>
+                  <img src={item.picture.thumbnail} alt={item.name.first} />
+                  <h2>{item.name.first}</h2>
+                </div>
+              </Link>
               <div>
                 <p>{item.email}</p>
 
