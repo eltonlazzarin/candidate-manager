@@ -51,21 +51,35 @@ export default function CandidateList({ textInput, candidates }) {
             </div>
 
             <div>
-              <MdDelete
-                onClick={handleErrorNotification}
-                size={24}
-                color="#a9a9a9"
-              />
-              <MdSelectAll
-                onClick={handleErrorNotification}
-                size={24}
-                color="#a9a9a9"
-              />
-              <MdCheck
-                onClick={handleErrorNotification}
-                size={24}
-                color="#a9a9a9"
-              />
+              {item.deleted ? (
+                <MdDelete
+                  onClick={handleErrorNotification}
+                  size={24}
+                  color="#a9a9a9"
+                />
+              ) : (
+                ''
+              )}
+
+              {item.attended ? (
+                <MdSelectAll
+                  onClick={handleErrorNotification}
+                  size={24}
+                  color="#a9a9a9"
+                />
+              ) : (
+                ''
+              )}
+
+              {item.checked ? (
+                <MdCheck
+                  onClick={handleErrorNotification}
+                  size={24}
+                  color="#a9a9a9"
+                />
+              ) : (
+                ''
+              )}
             </div>
           </main>
         ))}
@@ -96,21 +110,35 @@ export default function CandidateList({ textInput, candidates }) {
                 </div>
 
                 <div>
-                  <MdDelete
-                    onClick={handleErrorNotification}
-                    size={24}
-                    color="#a9a9a9"
-                  />
-                  <MdSelectAll
-                    onClick={handleErrorNotification}
-                    size={24}
-                    color="#a9a9a9"
-                  />
-                  <MdCheck
-                    onClick={handleErrorNotification}
-                    size={24}
-                    color="#a9a9a9"
-                  />
+                  {item.deleted ? (
+                    <MdDelete
+                      onClick={handleErrorNotification}
+                      size={24}
+                      color="#a9a9a9"
+                    />
+                  ) : (
+                    ''
+                  )}
+
+                  {item.attended ? (
+                    <MdSelectAll
+                      onClick={handleErrorNotification}
+                      size={24}
+                      color="#a9a9a9"
+                    />
+                  ) : (
+                    ''
+                  )}
+
+                  {item.checked ? (
+                    <MdCheck
+                      onClick={handleErrorNotification}
+                      size={24}
+                      color="#a9a9a9"
+                    />
+                  ) : (
+                    ''
+                  )}
                 </div>
               </main>
             ))
