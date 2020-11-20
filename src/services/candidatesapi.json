@@ -1,0 +1,506 @@
+[
+  {
+    "gender": "female",
+    "name": {
+      "title": "Mrs",
+      "first": "Leslie",
+      "last": "Robinson"
+    },
+    "location": {
+      "street": {
+        "number": 772,
+        "name": "Blossom Hill Rd"
+      },
+      "city": "Pembroke Pines",
+      "state": "Kansas",
+      "country": "United States",
+      "postcode": 67077,
+      "coordinates": {
+        "latitude": "84.7490",
+        "longitude": "12.4825"
+      },
+      "timezone": {
+        "offset": "-10:00",
+        "description": "Hawaii"
+      }
+    },
+    "email": "leslie.robinson@example.com",
+    "login": {
+      "uuid": "9c6110a5-a12b-4137-b240-4f1caecf425d",
+      "username": "angryfish990",
+      "password": "craving",
+      "salt": "elThpBoi",
+      "md5": "1f483446efa4d2ced2f146eaed85aa14",
+      "sha1": "9361e0bbd2b2f8cf9eac0f4bbb5ff0939523b500",
+      "sha256": "6b6165d8ed5efe9eb98b8bc6510656e4fb12b308dc44c5c930228c3a97446fe2"
+    },
+    "dob": {
+      "date": "1949-04-05T17:42:54.793Z",
+      "age": 71
+    },
+    "registered": {
+      "date": "2016-03-14T10:42:48.396Z",
+      "age": 4
+    },
+    "phone": "(889)-213-8137",
+    "cell": "(236)-961-0874",
+    "id": {
+      "name": "SSN",
+      "value": "692-22-5134"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/65.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/65.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/65.jpg"
+    },
+    "nat": "US"
+  },
+  {
+    "gender": "male",
+    "name": {
+      "title": "Mr",
+      "first": "Pat",
+      "last": "Parker"
+    },
+    "location": {
+      "street": {
+        "number": 260,
+        "name": "Forest Ln"
+      },
+      "city": "Alexandria",
+      "state": "Colorado",
+      "country": "United States",
+      "postcode": 78975,
+      "coordinates": {
+        "latitude": "-56.0441",
+        "longitude": "-63.2217"
+      },
+      "timezone": {
+        "offset": "+9:30",
+        "description": "Adelaide, Darwin"
+      }
+    },
+    "email": "pat.parker@example.com",
+    "login": {
+      "uuid": "b45aea10-db7b-4e43-b824-7f4bae0401c2",
+      "username": "heavyladybug612",
+      "password": "ariana",
+      "salt": "hICHkSL6",
+      "md5": "77c64b369cd6b974c1fbda9cd02a0cfd",
+      "sha1": "b0239ce4e49e2d3c2d29dc1215e5d4fdbe4b376d",
+      "sha256": "e263d66db337fa2ca99eaf5d85594357337e1e3a4458f5a26e5b15311740f430"
+    },
+    "dob": {
+      "date": "1995-12-19T18:46:05.609Z",
+      "age": 25
+    },
+    "registered": {
+      "date": "2005-11-15T16:45:59.419Z",
+      "age": 15
+    },
+    "phone": "(974)-560-6713",
+    "cell": "(510)-002-1201",
+    "id": {
+      "name": "SSN",
+      "value": "367-24-8265"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/6.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/6.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/6.jpg"
+    },
+    "nat": "US"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Ms",
+      "first": "Rocio",
+      "last": "Parra"
+    },
+    "location": {
+      "street": {
+        "number": 2589,
+        "name": "Calle de La Democracia"
+      },
+      "city": "Vigo",
+      "state": "Galicia",
+      "country": "Spain",
+      "postcode": 56438,
+      "coordinates": {
+        "latitude": "10.4103",
+        "longitude": "-15.4779"
+      },
+      "timezone": {
+        "offset": "+9:00",
+        "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+      }
+    },
+    "email": "rocio.parra@example.com",
+    "login": {
+      "uuid": "82b9e177-9f30-4fc6-9b1a-c25811104331",
+      "username": "ticklishpanda399",
+      "password": "babygirl",
+      "salt": "dRXf94Ep",
+      "md5": "0eedd00af98c6d0ad44e425233a931b3",
+      "sha1": "9952d736c962c74340d243f3ac199dd007c22197",
+      "sha256": "c98618c07efdcb97215de8396b159c469f04509c8ecd7c3f11d9b6d5775df53b"
+    },
+    "dob": {
+      "date": "1979-03-27T10:01:50.296Z",
+      "age": 41
+    },
+    "registered": {
+      "date": "2018-05-22T11:48:51.210Z",
+      "age": 2
+    },
+    "phone": "944-866-947",
+    "cell": "661-749-076",
+    "id": {
+      "name": "DNI",
+      "value": "24976695-O"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/58.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/58.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/58.jpg"
+    },
+    "nat": "ES"
+  },
+  {
+    "gender": "male",
+    "name": {
+      "title": "Mr",
+      "first": "Cameron",
+      "last": "Fowler"
+    },
+    "location": {
+      "street": {
+        "number": 6944,
+        "name": "The Avenue"
+      },
+      "city": "Monaghan",
+      "state": "Fingal",
+      "country": "Ireland",
+      "postcode": 29173,
+      "coordinates": {
+        "latitude": "25.2243",
+        "longitude": "-77.0948"
+      },
+      "timezone": {
+        "offset": "+2:00",
+        "description": "Kaliningrad, South Africa"
+      }
+    },
+    "email": "cameron.fowler@example.com",
+    "login": {
+      "uuid": "248bda43-42f6-4cc4-980e-fddfe8758118",
+      "username": "angryswan989",
+      "password": "jupiter",
+      "salt": "rj0AXYsh",
+      "md5": "3226b6cec7bcadd0a1b5fd166416da15",
+      "sha1": "2b776248b8dd2a8de8eaa6601f7c9849a78ceeb5",
+      "sha256": "3f05610283c833615ddeafe68ae6c89768f2d8b779d8a7130f8947e0624bf358"
+    },
+    "dob": {
+      "date": "1988-12-28T00:03:59.877Z",
+      "age": 32
+    },
+    "registered": {
+      "date": "2016-07-08T11:54:47.776Z",
+      "age": 4
+    },
+    "phone": "071-543-5005",
+    "cell": "081-420-0857",
+    "id": {
+      "name": "PPS",
+      "value": "8019741T"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/99.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/99.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/99.jpg"
+    },
+    "nat": "IE"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Mrs",
+      "first": "Raquel",
+      "last": "Vega"
+    },
+    "location": {
+      "street": {
+        "number": 4596,
+        "name": "Avenida de América"
+      },
+      "city": "Sevilla",
+      "state": "Comunidad de Madrid",
+      "country": "Spain",
+      "postcode": 35525,
+      "coordinates": {
+        "latitude": "-21.1806",
+        "longitude": "148.7220"
+      },
+      "timezone": {
+        "offset": "+7:00",
+        "description": "Bangkok, Hanoi, Jakarta"
+      }
+    },
+    "email": "raquel.vega@example.com",
+    "login": {
+      "uuid": "cf9c70d7-4bbd-4eaf-9e67-1014707ed2d4",
+      "username": "heavybutterfly105",
+      "password": "gooner",
+      "salt": "SUZ5N8t4",
+      "md5": "ab3d4b00e7efaf5b2f800c6f018c030c",
+      "sha1": "d93858ff4ee3f10ceb34b8ce7c1490bbe8703c14",
+      "sha256": "bd54822b05fce78e6795654b40b38212ebf0daa1f88ec73c05e45a121e4318b6"
+    },
+    "dob": {
+      "date": "1948-04-16T16:26:28.150Z",
+      "age": 72
+    },
+    "registered": {
+      "date": "2007-01-30T09:40:36.930Z",
+      "age": 13
+    },
+    "phone": "904-981-823",
+    "cell": "642-670-414",
+    "id": {
+      "name": "DNI",
+      "value": "89496606-T"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/45.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/45.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/45.jpg"
+    },
+    "nat": "ES"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Mademoiselle",
+      "first": "Annelise",
+      "last": "Marie"
+    },
+    "location": {
+      "street": {
+        "number": 9476,
+        "name": "Rue du Stade"
+      },
+      "city": "Hüttlingen",
+      "state": "Appenzell Ausserrhoden",
+      "country": "Switzerland",
+      "postcode": 7450,
+      "coordinates": {
+        "latitude": "25.0707",
+        "longitude": "152.3470"
+      },
+      "timezone": {
+        "offset": "+8:00",
+        "description": "Beijing, Perth, Singapore, Hong Kong"
+      }
+    },
+    "email": "annelise.marie@example.com",
+    "login": {
+      "uuid": "977ea9e7-ba2c-47f1-8b37-eb99f88ed330",
+      "username": "purplerabbit332",
+      "password": "suburban",
+      "salt": "PpzVgmQ7",
+      "md5": "b9fbef490e24d5099ad1c73c2f30b670",
+      "sha1": "c2229df311c87c13ab5a16926dc71be0dc62737a",
+      "sha256": "09f5cc5a42441224ad3d22e33e91b8fc4df2e39cc3e3b40c3686aed18c197c98"
+    },
+    "dob": {
+      "date": "1995-11-14T19:09:26.329Z",
+      "age": 25
+    },
+    "registered": {
+      "date": "2013-03-26T13:52:08.952Z",
+      "age": 7
+    },
+    "phone": "075 157 96 24",
+    "cell": "075 436 75 77",
+    "id": {
+      "name": "AVS",
+      "value": "756.4819.7840.92"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/95.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/95.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/95.jpg"
+    },
+    "nat": "CH"
+  },
+  {
+    "gender": "male",
+    "name": {
+      "title": "Mr",
+      "first": "Toby",
+      "last": "Edwards"
+    },
+    "location": {
+      "street": {
+        "number": 3440,
+        "name": "Tamaki Drive"
+      },
+      "city": "Auckland",
+      "state": "Canterbury",
+      "country": "New Zealand",
+      "postcode": 41553,
+      "coordinates": {
+        "latitude": "22.5011",
+        "longitude": "-174.3151"
+      },
+      "timezone": {
+        "offset": "-2:00",
+        "description": "Mid-Atlantic"
+      }
+    },
+    "email": "toby.edwards@example.com",
+    "login": {
+      "uuid": "085f1bd6-eba9-4247-98ae-453590c946f1",
+      "username": "angrybutterfly556",
+      "password": "1919",
+      "salt": "T0L4ntkK",
+      "md5": "376613333113608c14d824f5af654cc8",
+      "sha1": "27a714b374c7133d77d94f35ba6422324b901a68",
+      "sha256": "3533c59b2001b032a2f0d52d872be290c4784eaec41fee84ec14fb46fa6f27e8"
+    },
+    "dob": {
+      "date": "1994-12-17T08:46:02.054Z",
+      "age": 26
+    },
+    "registered": {
+      "date": "2013-06-26T17:25:38.274Z",
+      "age": 7
+    },
+    "phone": "(888)-855-9410",
+    "cell": "(365)-217-8502",
+    "id": {
+      "name": "",
+      "value": null
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/94.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/94.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/94.jpg"
+    },
+    "nat": "NZ"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Ms",
+      "first": "Claudia",
+      "last": "Hidalgo"
+    },
+    "location": {
+      "street": {
+        "number": 1048,
+        "name": "Calle de Bravo Murillo"
+      },
+      "city": "Murcia",
+      "state": "Comunidad Valenciana",
+      "country": "Spain",
+      "postcode": 21518,
+      "coordinates": {
+        "latitude": "65.1874",
+        "longitude": "177.2243"
+      },
+      "timezone": {
+        "offset": "-9:00",
+        "description": "Alaska"
+      }
+    },
+    "email": "claudia.hidalgo@example.com",
+    "login": {
+      "uuid": "091c4d3f-199d-4fd6-94a4-6c13afdac4fa",
+      "username": "smallpeacock201",
+      "password": "moon",
+      "salt": "yYtE1kTj",
+      "md5": "d5999ca0b5da1c040f38f984f4c0216e",
+      "sha1": "824b3097aabe0d0b6ead01ca7319a6bac4f2e915",
+      "sha256": "c2ce630f4a78c80ac51d1fd23c0a4c2407db1af0aae29fa831096dc41754bb3b"
+    },
+    "dob": {
+      "date": "1949-03-29T00:23:16.922Z",
+      "age": 71
+    },
+    "registered": {
+      "date": "2014-08-01T03:00:21.808Z",
+      "age": 6
+    },
+    "phone": "905-543-423",
+    "cell": "680-189-767",
+    "id": {
+      "name": "DNI",
+      "value": "09272665-Z"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/74.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/74.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/74.jpg"
+    },
+    "nat": "ES"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Ms",
+      "first": "Alberte",
+      "last": "Petersen"
+    },
+    "location": {
+      "street": {
+        "number": 9685,
+        "name": "Tornskadevej"
+      },
+      "city": "Brondby",
+      "state": "Nordjylland",
+      "country": "Denmark",
+      "postcode": 25499,
+      "coordinates": {
+        "latitude": "86.2918",
+        "longitude": "-131.6304"
+      },
+      "timezone": {
+        "offset": "+3:30",
+        "description": "Tehran"
+      }
+    },
+    "email": "alberte.petersen@example.com",
+    "login": {
+      "uuid": "b038cea3-7076-4ac8-8b6d-2fcd70e3d3f2",
+      "username": "bigkoala219",
+      "password": "jakejake",
+      "salt": "7pNP8U7e",
+      "md5": "8ece5648bc4327fb1a1d18fce501ad1b",
+      "sha1": "2b963fc53f73cd00d3514238825326603d6ff598",
+      "sha256": "b905fcd9cd13416a779085c00c75491d9ce7973ef249fdb86c74ce8a3e56bc8a"
+    },
+    "dob": {
+      "date": "1981-01-31T21:36:59.502Z",
+      "age": 39
+    },
+    "registered": {
+      "date": "2011-02-06T20:05:49.955Z",
+      "age": 9
+    },
+    "phone": "52471197",
+    "cell": "36356954",
+    "id": {
+      "name": "CPR",
+      "value": "310181-3264"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/14.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/14.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/14.jpg"
+    },
+    "nat": "DK"
+  }
+]
