@@ -1,6 +1,6 @@
 .candidateslist {
-  max-width: 1100px;
-  margin: 40px auto;
+  max-width: 1020px;
+  margin: 48px auto;
   width: 100%;
 }
 
@@ -14,12 +14,10 @@
   align-items: center;
   justify-content: space-between;
 
-  padding: 10px;
-
+  height: 72px;
+  padding: 7px;
   background: $WHITE;
-
   border: 2px solid $SHADOW;
-
   box-shadow: 0px 1px 9px 3px $SHADOW;
 }
 
@@ -40,20 +38,21 @@
 .candidateslist main div img {
   border-radius: 50%;
   margin-left: 14px;
+  height: 42px;
 }
 
 .candidateslist main div p {
   color: $LIGHT_GRAY;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .candidateslist main div p + p {
   padding-left: 42px;
 }
 
-.candidateslist main div h2 {
+.candidateslist main div h3 {
   padding-left: 22px;
-  color: $MEDIUM_GRAY;
+  color: $DARK_BLUE;
 }
 
 .candidateslist main div svg:last-child {

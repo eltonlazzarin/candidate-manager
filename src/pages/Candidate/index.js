@@ -93,32 +93,32 @@ export default function Candidate() {
                 <div>
                   <FaRegUser
                     onMouseOver={() => CandidateName(item)}
-                    size={40}
+                    size={34}
                     color=" #a9a9a9"
                   />
                   <AiOutlineMail
                     onMouseOver={() => CandidateEmail(item)}
-                    size={40}
+                    size={36}
                     color="#a9a9a9"
                   />
                   <BsCalendar
                     onMouseOver={() => CandidateBirthday(item)}
-                    size={36}
+                    size={30}
                     color="#a9a9a9"
                   />
                   <MdLocationOn
                     onMouseOver={() => CandidateAddress(item)}
-                    size={40}
+                    size={36}
                     color="#a9a9a9"
                   />
                   <AiOutlinePhone
                     onMouseOver={() => CandidatePhone(item)}
-                    size={40}
+                    size={36}
                     color=" #a9a9a9"
                   />
                   <VscKey
                     onMouseOver={() => CandidatePassword(item)}
-                    size={40}
+                    size={36}
                     color="#a9a9a9"
                   />
                 </div>

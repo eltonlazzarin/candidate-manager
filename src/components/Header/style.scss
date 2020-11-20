@@ -12,23 +12,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 72px;
+  height: 68px;
   padding: 0 42px;
   color: $WHITE;
-  min-width: 1480px;
+  min-width: 1335px;
   font-size: 14px;
 }
 
 .container nav img {
-  height: 48px;
+  height: 42px;
 }
 
 .container nav input {
-  width: 900px;
-  height: 44px;
+  width: 800px;
+  height: 36px;
   border-radius: 50px;
   text-indent: 46px;
-  font-size: 20px;
+  border: none;
+  font-size: 19px;
+  color: $DARK_BLUE;
   font-weight: bold;
 }
 

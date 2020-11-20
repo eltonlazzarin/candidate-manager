@@ -21,13 +21,13 @@ export default function CandidatesAttended() {
           <ul>
             <li>
               <div>
-                <MdSelectAll size={26} color="#a9a9a9" />
+                <MdSelectAll size={24} color="#a9a9a9" />
                 <Link to="/">Todos</Link>
               </div>
             </li>
             <li>
               <div>
-                <BsCheckAll size={26} color="#8dc63f" />
+                <BsCheckAll size={24} color="#8dc63f" />
                 <Link to="/candidatesattended" className="active">
                   Atendidos
                 </Link>
@@ -35,7 +35,7 @@ export default function CandidatesAttended() {
             </li>
             <li>
               <div>
-                <MdDeleteSweep size={26} color="#a9a9a9" />
+                <MdDeleteSweep size={24} color="#a9a9a9" />
                 <Link to="/trashcan">Lixeira</Link>
               </div>
             </li>
