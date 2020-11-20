@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { MdSelectAll, MdDelete, MdCheck } from 'react-icons/md';
 
 import SkeletonEffect from '../../components/SkeletonEffect';
-
+import 'react-toastify/dist/ReactToastify.css';
 import candidatesapi from '../../services/candidatesapi.json';
 
 export default function CandidateList({ textInput, candidates }) {
@@ -19,6 +19,12 @@ export default function CandidateList({ textInput, candidates }) {
     .filter((filterName) => filterName.name.first === textInput)
     .map((item) => item.name.first)
     .toString();
+
+  const handleErrorNotification = () => {
+    return alert(
+      'Desculpa, no momento estamos sofrendo algumas instabilidades no sistema. Por favor, retorne mais tarde.',
+    );
+  };
 
   if (isLoading) {
     return (
@@ -46,9 +52,21 @@ export default function CandidateList({ textInput, candidates }) {
             </div>
 
             <div>
-              <MdDelete size={26} color="#a9a9a9" />
-              <MdSelectAll size={26} color="#a9a9a9" />
-              <MdCheck size={26} color="#a9a9a9" />
+              <MdDelete
+                onClick={handleErrorNotification}
+                size={26}
+                color="#a9a9a9"
+              />
+              <MdSelectAll
+                onClick={handleErrorNotification}
+                size={26}
+                color="#a9a9a9"
+              />
+              <MdCheck
+                onClick={handleErrorNotification}
+                size={26}
+                color="#a9a9a9"
+              />
             </div>
           </main>
         ))}
@@ -79,9 +97,21 @@ export default function CandidateList({ textInput, candidates }) {
                 </div>
 
                 <div>
-                  <MdDelete size={26} color="#a9a9a9" />
-                  <MdSelectAll size={26} color="#a9a9a9" />
-                  <MdCheck size={26} color="#a9a9a9" />
+                  <MdDelete
+                    onClick={handleErrorNotification}
+                    size={26}
+                    color="#a9a9a9"
+                  />
+                  <MdSelectAll
+                    onClick={handleErrorNotification}
+                    size={26}
+                    color="#a9a9a9"
+                  />
+                  <MdCheck
+                    onClick={handleErrorNotification}
+                    size={26}
+                    color="#a9a9a9"
+                  />
                 </div>
               </main>
             ))
