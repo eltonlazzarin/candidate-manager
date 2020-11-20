@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { MdSelectAll, MdDelete, MdCheck } from 'react-icons/md';
 
 import SkeletonEffect from '../../components/SkeletonEffect';
-import 'react-toastify/dist/ReactToastify.css';
 import candidatesapi from '../../services/candidatesapi.json';
 
 export default function CandidateList({ textInput, candidates }) {
