@@ -14,7 +14,7 @@ const Routes = () => {
         <Route path="/" exact component={AllCandidates} />
         <Route path="/candidatesattended" component={CandidatesAttended} />
         <Route path="/trashcan" component={TrashCan} />
-        <Route path="/candidate" component={Candidate} />
+        <Route path="/candidates/:uuid" component={Candidate} />
       </Switch>
     </BrowserRouter>
   );
