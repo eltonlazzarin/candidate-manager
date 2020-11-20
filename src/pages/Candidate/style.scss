@@ -5,7 +5,7 @@
 
 .candidate header {
   height: 350px;
-  background: #0c3455;
+  background: $DARK_BLUE;
 }
 
 .candidate span {
@@ -14,13 +14,13 @@
   justify-content: center;
   height: 38px;
   width: 38px;
-  background: #fff;
+  background: $WHITE;
   border-radius: 50%;
   position: absolute;
   top: 26px;
   left: 26px;
   transition: opacity 0.2s;
-  box-shadow: 0px 1px 9px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 9px 3px $SHADOW;
 }
 
 .candidate span:hover {
@@ -35,19 +35,19 @@
   position: absolute;
   height: 560px;
   width: 780px;
-  background: #fff;
+  background: $WHITE;
   top: 120px;
   left: 340px;
-  box-shadow: 0px 1px 9px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 9px 3px $SHADOW;
 }
 
 .header {
   height: 170px;
-  background: #f5f5f5;
+  background: $GRAY;
 }
 
 .divider {
-  border: 1px solid #dcdcdc;
+  border: 1px solid $LIGHTER_GRAY;
 }
 
 .candidatedata {
@@ -56,7 +56,7 @@
   flex-direction: column;
   justify-content: center;
   height: 390px;
-  background: #fff;
+  background: $WHITE;
 }
 
 .candidatedata img {
@@ -66,7 +66,7 @@
   position: absolute;
   top: 60px;
   left: 280px;
-  border: 1px solid #dcdcdc;
+  border: 1px solid $LIGHTER_GRAY;
 }
 
 .candidatedata div {
@@ -75,14 +75,14 @@
 
 .candidatedata div p {
   font-size: 24px;
-  color: #a9a9a9;
+  color: $LIGHT_GRAY;
   margin-bottom: 16px;
 }
 
 .candidatedata div p + p {
   font-size: 38px;
   font-weight: bold;
-  color: #4f4f4f;
+  color: $MEDIUM_GRAY;
 }
 
 .icons {
@@ -96,5 +96,5 @@
 }
 
 .icons div svg:hover {
-  fill: #8dc63f;
+  fill: $GREEN;
 }
