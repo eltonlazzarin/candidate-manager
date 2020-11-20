@@ -1,0 +1,37 @@
+.container {
+  background: $DARK_BLUE;
+}
+
+.container header {
+  display: flex;
+  justify-content: center;
+  box-shadow: 3px 3px 3px 3px $SHADOW;
+}
+
+.container header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  padding: 0 42px;
+  color: $WHITE;
+  min-width: 1480px;
+  font-size: 14px;
+}
+
+.container nav img {
+  height: 48px;
+}
+
+.container nav input {
+  width: 900px;
+  height: 44px;
+  border-radius: 50px;
+  text-indent: 46px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container nav span img {
+  border-radius: 50%;
+}
