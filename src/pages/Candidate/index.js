@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 import { FaRegUser } from 'react-icons/fa';
@@ -7,25 +8,45 @@ import { BsCalendar } from 'react-icons/bs';
 import { AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
 import { MdKeyboardArrowLeft, MdLocationOn } from 'react-icons/md';
 
-import './style.scss';
+import candidatesapi from '../../services/candidatesapi.json';
+import candidatesdeleted from '../../services/candidatesattended.json';
 
 export default function Candidate() {
+  const [defauldAPI, setDefaultAPI] = useState(candidatesapi);
+  const [candidates, setCandidates] = useState([]);
   let [pageDefaultData, setPageData] = useState('Hi, My name is');
-  let [textCandidateData, setTextCandidateData] = useState('Lorraine Beck');
+  let [textCandidateData, setTextCandidateData] = useState('Cameron Fowler');
 
-  function CandidateName() {
+  const { uuid } = useParams();
+
+  useEffect(() => {
+    const findCandidate = defauldAPI.filter(
+      (candidate) => candidate.login.uuid === uuid,
+    );
+
+    setCandidates(findCandidate);
+  }, []);
+
+  function CandidateName(item) {
     setPageData('Hi, My name is');
-    setTextCandidateData('Lorraine Beck');
+    setTextCandidateData(`${item.name.first} ${item.name.last}`);
   }
 
-  function CandidateEmail() {
+  function CandidateEmail(item) {
     setPageData('My email address is');
-    setTextCandidateData('lorraine.beck@co.com');
+    setTextCandidateData(item.email);
   }
 
-  function CandidateBirthday() {
+  function CandidateBirthday(item) {
+    const parse = item.dob.date;
+    const today = new Date(parse);
+    const year = today.getFullYear();
+    const day = today.getDate();
+    const month = today.getMonth();
+    const fullDateParsed = `${day}/${month}/${year}`;
+
     setPageData('My birthday is');
-    setTextCandidateData('6/7/1983');
+    setTextCandidateData(fullDateParsed);
   }
 
   function CandidateAddress() {
@@ -33,14 +54,14 @@ export default function Candidate() {
     setTextCandidateData('234 California St');
   }
 
-  function CandidatePhone() {
+  function CandidatePhone(item) {
     setPageData('My phone number is');
-    setTextCandidateData('(988)-827-1338');
+    setTextCandidateData(item.phone);
   }
 
-  function CandidatePassword() {
+  function CandidatePassword(item) {
     setPageData('My password is');
-    setTextCandidateData('09879');
+    setTextCandidateData(item.login.password);
   }
 
   return (
@@ -56,49 +77,54 @@ export default function Candidate() {
         <div className="header"></div>
         <div className="divider"></div>
         <div className="candidatedata">
-          <img
-            src="https://avatars2.githubusercontent.com/u/53025782?s=460&u=4aa2f5d075b8c3b00a77dcc0c475809f99dca504&v=4"
-            alt="Candidate Avatar"
-          />
+          {candidates.map((item) => (
+            <>
+              <img
+                key={item.login.uuid}
+                src={item.picture.large}
+                alt={item.name.first}
+              />
 
-          <div>
-            <p>{pageDefaultData}</p>
-            <p>{textCandidateData}</p>
-          </div>
-          <div className="icons">
-            <div>
-              <FaRegUser
-                onMouseOver={CandidateName}
-                size={40}
-                color=" #a9a9a9"
-              />
-              <AiOutlineMail
-                onMouseOver={CandidateEmail}
-                size={40}
-                color="#a9a9a9"
-              />
-              <BsCalendar
-                onMouseOver={CandidateBirthday}
-                size={36}
-                color="#a9a9a9"
-              />
-              <MdLocationOn
-                onMouseOver={CandidateAddress}
-                size={40}
-                color="#a9a9a9"
-              />
-              <AiOutlinePhone
-                onMouseOver={CandidatePhone}
-                size={40}
-                color=" #a9a9a9"
-              />
-              <VscKey
-                onMouseOver={CandidatePassword}
-                size={40}
-                color="#a9a9a9"
-              />
-            </div>
-          </div>
+              <div>
+                <p>{pageDefaultData}</p>
+                <p>{textCandidateData}</p>
+              </div>
+              <div className="icons">
+                <div>
+                  <FaRegUser
+                    onMouseOver={() => CandidateName(item)}
+                    size={40}
+                    color=" #a9a9a9"
+                  />
+                  <AiOutlineMail
+                    onMouseOver={() => CandidateEmail(item)}
+                    size={40}
+                    color="#a9a9a9"
+                  />
+                  <BsCalendar
+                    onMouseOver={() => CandidateBirthday(item)}
+                    size={36}
+                    color="#a9a9a9"
+                  />
+                  <MdLocationOn
+                    onMouseOver={() => CandidateAddress(item)}
+                    size={40}
+                    color="#a9a9a9"
+                  />
+                  <AiOutlinePhone
+                    onMouseOver={() => CandidatePhone(item)}
+                    size={40}
+                    color=" #a9a9a9"
+                  />
+                  <VscKey
+                    onMouseOver={() => CandidatePassword(item)}
+                    size={40}
+                    color="#a9a9a9"
+                  />
+                </div>
+              </div>
+            </>
+          ))}
         </div>
       </main>
     </div>
