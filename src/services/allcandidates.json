@@ -56,6 +56,62 @@
     "nat": "IE"
   },
   {
+    "gender": "male",
+    "name": {
+      "title": "Mr",
+      "first": "Tobias",
+      "last": "Kristensen"
+    },
+    "location": {
+      "street": {
+        "number": 479,
+        "name": "Møllegårdsvej"
+      },
+      "city": "V.Skerninge",
+      "state": "Midtjylland",
+      "country": "Denmark",
+      "postcode": 45735,
+      "coordinates": {
+        "latitude": "-26.7442",
+        "longitude": "-34.0937"
+      },
+      "timezone": {
+        "offset": "+6:00",
+        "description": "Almaty, Dhaka, Colombo"
+      }
+    },
+    "email": "tobias.kristensen@example.com",
+    "login": {
+      "uuid": "e6c08e76-9e8e-4c01-916a-59feb76e8e5a",
+      "username": "happyostrich426",
+      "password": "astros",
+      "salt": "K4G4XcgJ",
+      "md5": "c35f6a763a0391755f1691792952b7c2",
+      "sha1": "67da4541c3ee7e5a0aa8829b0a71447c22360629",
+      "sha256": "64ef4bdcd6fee6d3be0a91f4612f594ddad7a22d3ada6b5bbc907b7f4b4ec50e"
+    },
+    "dob": {
+      "date": "1977-06-09T02:01:47.676Z",
+      "age": 43
+    },
+    "registered": {
+      "date": "2018-11-29T04:31:44.111Z",
+      "age": 2
+    },
+    "phone": "74485836",
+    "cell": "87153349",
+    "id": {
+      "name": "CPR",
+      "value": "090677-6471"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/90.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/90.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/90.jpg"
+    },
+    "nat": "DK"
+  },
+  {
     "gender": "female",
     "name": {
       "title": "Mrs",
@@ -110,6 +166,62 @@
       "thumbnail": "https://randomuser.me/api/portraits/thumb/women/45.jpg"
     },
     "nat": "ES"
+  },
+  {
+    "gender": "male",
+    "name": {
+      "title": "Mr",
+      "first": "Thorbjørn",
+      "last": "Melbø"
+    },
+    "location": {
+      "street": {
+        "number": 8291,
+        "name": "Svingen terrasse"
+      },
+      "city": "Tynset",
+      "state": "Oslo",
+      "country": "Norway",
+      "postcode": "9022",
+      "coordinates": {
+        "latitude": "54.1585",
+        "longitude": "-7.8445"
+      },
+      "timezone": {
+        "offset": "+4:30",
+        "description": "Kabul"
+      }
+    },
+    "email": "thorbjorn.melbo@example.com",
+    "login": {
+      "uuid": "e8adde97-f888-4e88-9a2d-5901c0ceee81",
+      "username": "blacksnake381",
+      "password": "muscles",
+      "salt": "8HIG5HIK",
+      "md5": "fab6b17edbd1656155714d10ecad0412",
+      "sha1": "b5fcdc2e74a5367c91602e5b2b6edf5cbdc5da52",
+      "sha256": "573395b65f63c15b3778981f411c08893575ae51ae997c62e0abfaa0d8caa93c"
+    },
+    "dob": {
+      "date": "1978-01-18T14:07:54.320Z",
+      "age": 42
+    },
+    "registered": {
+      "date": "2003-02-25T07:25:03.944Z",
+      "age": 17
+    },
+    "phone": "70898850",
+    "cell": "41304914",
+    "id": {
+      "name": "FN",
+      "value": "18017848336"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/12.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/12.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/12.jpg"
+    },
+    "nat": "NO"
   },
   {
     "gender": "female",
