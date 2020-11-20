@@ -53,6 +53,9 @@
       "medium": "https://randomuser.me/api/portraits/med/women/65.jpg",
       "thumbnail": "https://randomuser.me/api/portraits/thumb/women/65.jpg"
     },
-    "nat": "US"
+    "nat": "US",
+    "attended": true,
+    "deleted": false,
+    "checked": true
   }
 ]

@@ -53,7 +53,10 @@
       "medium": "https://randomuser.me/api/portraits/med/men/6.jpg",
       "thumbnail": "https://randomuser.me/api/portraits/thumb/men/6.jpg"
     },
-    "nat": "US"
+    "nat": "US",
+    "attended": true,
+    "deleted": true,
+    "checked": false
   },
   {
     "gender": "female",
@@ -109,6 +112,9 @@
       "medium": "https://randomuser.me/api/portraits/med/women/58.jpg",
       "thumbnail": "https://randomuser.me/api/portraits/thumb/women/58.jpg"
     },
-    "nat": "ES"
+    "nat": "ES",
+    "attended": true,
+    "deleted": true,
+    "checked": false
   }
 ]

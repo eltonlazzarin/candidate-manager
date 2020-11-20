@@ -53,7 +53,10 @@
       "medium": "https://randomuser.me/api/portraits/med/men/99.jpg",
       "thumbnail": "https://randomuser.me/api/portraits/thumb/men/99.jpg"
     },
-    "nat": "IE"
+    "nat": "IE",
+    "attended": true,
+    "deleted": true,
+    "checked": true
   },
   {
     "gender": "male",
@@ -109,7 +112,10 @@
       "medium": "https://randomuser.me/api/portraits/med/men/90.jpg",
       "thumbnail": "https://randomuser.me/api/portraits/thumb/men/90.jpg"
     },
-    "nat": "DK"
+    "nat": "DK",
+    "attended": true,
+    "deleted": true,
+    "checked": true
   },
   {
     "gender": "female",
@@ -165,7 +171,10 @@
       "medium": "https://randomuser.me/api/portraits/med/women/45.jpg",
       "thumbnail": "https://randomuser.me/api/portraits/thumb/women/45.jpg"
     },
-    "nat": "ES"
+    "nat": "ES",
+    "attended": true,
+    "deleted": true,
+    "checked": true
   },
   {
     "gender": "male",
@@ -221,7 +230,10 @@
       "medium": "https://randomuser.me/api/portraits/med/men/12.jpg",
       "thumbnail": "https://randomuser.me/api/portraits/thumb/men/12.jpg"
     },
-    "nat": "NO"
+    "nat": "NO",
+    "attended": true,
+    "deleted": true,
+    "checked": true
   },
   {
     "gender": "female",
@@ -277,7 +289,10 @@
       "medium": "https://randomuser.me/api/portraits/med/women/95.jpg",
       "thumbnail": "https://randomuser.me/api/portraits/thumb/women/95.jpg"
     },
-    "nat": "CH"
+    "nat": "CH",
+    "attended": true,
+    "deleted": true,
+    "checked": true
   },
   {
     "gender": "male",
@@ -333,7 +348,10 @@
       "medium": "https://randomuser.me/api/portraits/med/men/94.jpg",
       "thumbnail": "https://randomuser.me/api/portraits/thumb/men/94.jpg"
     },
-    "nat": "NZ"
+    "nat": "NZ",
+    "attended": true,
+    "deleted": true,
+    "checked": true
   },
   {
     "gender": "female",
@@ -389,7 +407,10 @@
       "medium": "https://randomuser.me/api/portraits/med/women/74.jpg",
       "thumbnail": "https://randomuser.me/api/portraits/thumb/women/74.jpg"
     },
-    "nat": "ES"
+    "nat": "ES",
+    "attended": true,
+    "deleted": true,
+    "checked": true
   },
   {
     "gender": "female",
@@ -445,6 +466,9 @@
       "medium": "https://randomuser.me/api/portraits/med/women/14.jpg",
       "thumbnail": "https://randomuser.me/api/portraits/thumb/women/14.jpg"
     },
-    "nat": "DK"
+    "nat": "DK",
+    "attended": true,
+    "deleted": true,
+    "checked": true
   }
 ]
