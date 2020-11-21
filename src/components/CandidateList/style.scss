@@ -41,18 +41,17 @@
   height: 42px;
 }
 
-.candidateslist main div p {
-  color: $LIGHT_GRAY;
-  font-size: 17px;
-}
-
-.candidateslist main div p + p {
-  padding-left: 42px;
-}
-
 .candidateslist main div h3 {
   padding-left: 22px;
   color: $DARK_BLUE;
+}
+
+.candidatetext {
+  color: $LIGHT_GRAY;
+  font-size: 17px;
+  display: flex;
+  width: 630px;
+  justify-content: space-between;
 }
 
 .candidateslist main div svg:last-child {

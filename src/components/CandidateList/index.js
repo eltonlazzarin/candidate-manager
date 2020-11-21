@@ -42,12 +42,16 @@ export default function CandidateList({ textInput, candidates }) {
                 <h3>{item.name.first}</h3>
               </div>
             </Link>
-            <div>
-              <p>{item.email}</p>
-
-              <p>{item.phone}</p>
-
-              <p>{item.location.city}</p>
+            <div className="candidatetext">
+              <div>
+                <p>{item.email}</p>
+              </div>
+              <div>
+                <p>{item.phone}</p>
+              </div>
+              <div>
+                <p>{item.location.city}</p>
+              </div>
             </div>
 
             <div>
