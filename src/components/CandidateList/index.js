@@ -98,7 +98,7 @@ export default function CandidateList({ textInput, candidates }) {
                 <Link to={`/candidates/${item.login.uuid}`}>
                   <div>
                     <img src={item.picture.thumbnail} alt={item.name.first} />
-                    <h2>{item.name.first}</h2>
+                    <h3>{item.name.first}</h3>
                   </div>
                 </Link>
                 <div>
