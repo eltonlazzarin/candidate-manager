@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+body,
+input {
+  font-family: 'Roboto', sans-serif;
+}
+
+svg {
+  cursor: pointer;
+}
+
+.navbar {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar aside {
+  width: 175px;
+  background: #fff;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.navbar aside ul li {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.navbar aside ul li div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.navbar aside ul li a {
+  text-decoration: none;
+  font-size: 19px;
+  color: #a9a9a9;
+  padding-left: 24px;
+}
+
+.navbar aside ul li a.active {
+  color: #8dc63f;
+  font-weight: bold;
+}
+
+.navbar {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar aside {
+  width: 175px;
+  background: #fff;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.navbar aside ul li {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.navbar aside ul li div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.navbar aside ul li a {
+  text-decoration: none;
+  font-size: 19px;
+  color: #a9a9a9;
+  padding-left: 24px;
+}
+
+.navbar aside ul li a.active {
+  color: #8dc63f;
+  font-weight: bold;
+}
+
+.navbar {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar aside {
+  width: 175px;
+  background: #fff;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.navbar aside ul li {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.navbar aside ul li div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.navbar aside ul li a {
+  text-decoration: none;
+  font-size: 19px;
+  color: #a9a9a9;
+  padding-left: 24px;
+}
+
+.navbar aside ul li a.active {
+  color: #8dc63f;
+  font-weight: bold;
+}
+
+.candidate {
+  width: 100vw;
+  height: 100vh;
+}
+
+.candidate header {
+  height: 320px;
+  background: #0c3455;
+}
+
+.candidate span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 32px;
+  width: 32px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  -webkit-box-shadow: 0px 1px 9px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 9px 3px rgba(0, 0, 0, 0.2);
+}
+
+.candidate span:hover {
+  opacity: 0.9;
+}
+
+.candidate span svg {
+  margin-top: 6px;
+}
+
+.candidate main {
+  position: absolute;
+  width: 700px;
+  background: #fff;
+  top: 100px;
+  left: 300px;
+  -webkit-box-shadow: 0px 1px 9px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 9px 3px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  height: 140px;
+  background: #f5f5f5;
+}
+
+.divider {
+  border: 1px solid #dcdcdc;
+}
+
+.candidatedata {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 390px;
+  background: #fff;
+}
+
+.candidatedata img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 36px;
+  left: 250px;
+  border: 1px solid #dcdcdc;
+}
+
+.candidatedata div {
+  text-align: center;
+}
+
+.candidatedata div p {
+  font-size: 22px;
+  color: #a9a9a9;
+  margin-bottom: 12px;
+}
+
+.candidatedata div p + p {
+  font-size: 36px;
+  font-weight: bold;
+  color: #4f4f4f;
+}
+
+.icons {
+  width: 500px;
+  margin-top: 38px;
+}
+
+.icons div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.icons div svg:hover {
+  fill: #8dc63f;
+}
+
+.container {
+  background: #0c3455;
+}
+
+.container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.container header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 68px;
+  padding: 0 42px;
+  color: #fff;
+  min-width: 1335px;
+  font-size: 14px;
+}
+
+.container nav img {
+  height: 42px;
+}
+
+.container nav input {
+  width: 800px;
+  height: 36px;
+  border-radius: 50px;
+  text-indent: 46px;
+  border: none;
+  font-size: 19px;
+  color: #0c3455;
+  font-weight: bold;
+}
+
+.container nav span img {
+  border-radius: 50%;
+}
+
+.candidateslist {
+  max-width: 1020px;
+  margin: 48px auto;
+  width: 100%;
+}
+
+.candidateslist a {
+  text-decoration: none;
+}
+
+.candidateslist main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 72px;
+  padding: 7px;
+  background: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 1px 9px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 9px 3px rgba(0, 0, 0, 0.2);
+}
+
+.candidateslist main:first-child {
+  border-radius: 4px 4px 0 0;
+}
+
+.candidateslist main:last-child {
+  border-radius: 0 0 4px 4px;
+}
+
+.candidateslist main div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.candidateslist main div img {
+  border-radius: 50%;
+  margin-left: 14px;
+  height: 42px;
+}
+
+.candidateslist main div h3 {
+  padding-left: 22px;
+  color: #0c3455;
+}
+
+.candidatetext {
+  color: #a9a9a9;
+  font-size: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 630px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.candidateslist main div svg:last-child {
+  margin-right: 14px;
+}
+
+.candidateslist main div svg + svg {
+  margin-left: 22px;
+}
+/*# sourceMappingURL=Main.css.map */
