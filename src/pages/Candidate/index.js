@@ -9,7 +9,6 @@ import { AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
 import { MdKeyboardArrowLeft, MdLocationOn } from 'react-icons/md';
 
 import candidatesapi from '../../services/candidatesapi.json';
-import candidatesdeleted from '../../services/candidatesattended.json';
 
 export default function Candidate() {
   const [defauldAPI, setDefaultAPI] = useState(candidatesapi);
