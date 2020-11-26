@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 import { FaRegUser } from 'react-icons/fa';
 import { VscKey } from 'react-icons/vsc';
@@ -9,13 +8,12 @@ import { AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
 import { MdKeyboardArrowLeft, MdLocationOn } from 'react-icons/md';
 
 import candidatesapi from '../../services/candidatesapi.json';
-import candidatesdeleted from '../../services/candidatesattended.json';
 
 export default function Candidate() {
   const [defauldAPI, setDefaultAPI] = useState(candidatesapi);
   const [candidates, setCandidates] = useState([]);
-  let [pageDefaultData, setPageData] = useState('Hi, My name is');
-  let [textCandidateData, setTextCandidateData] = useState('Cameron Fowler');
+  const [pageDefaultData, setPageData] = useState('Hi, My name is');
+  const [textCandidateData, setTextCandidateData] = useState('Cameron Fowler');
 
   const { uuid } = useParams();
 
