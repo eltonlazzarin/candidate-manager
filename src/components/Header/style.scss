@@ -17,10 +17,26 @@
   color: $WHITE;
   min-width: 1335px;
   font-size: 14px;
+
+  @media #{$BREAKPOINT_MOBILE} {
+    min-width: 440px;
+  }
 }
 
 .container nav img {
   height: 42px;
+
+  @media #{$BREAKPOINT_MOBILE} {
+    display: none;
+  }
+}
+
+.container nav svg {
+  display: none;
+
+  @media #{$BREAKPOINT_MOBILE} {
+    display: inline;
+  }
 }
 
 .container nav input {
@@ -32,8 +48,16 @@
   font-size: 19px;
   color: $DARK_BLUE;
   font-weight: bold;
+
+  @media #{$BREAKPOINT_MOBILE} {
+    width: 190px;
+  }
 }
 
 .container nav span img {
   border-radius: 50%;
+
+  @media #{$BREAKPOINT_MOBILE} {
+    display: inline;
+  }
 }
