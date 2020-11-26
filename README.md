@@ -41,7 +41,7 @@ Technologies that I used to develop this frontend app
 - [Axios](https://github.com/axios/axios)
 - [Node-SASS](https://github.com/sass/node-sass)
 - [React-Loading-Skeleton](https://github.com/dvtng/react-loading-skeleton)
-- [VS Code](https://code.visualstudio.com) with [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) and [Prettier RC](https://github.com/prettier/prettier)
+- [VS Code](https://code.visualstudio.com) with [ESLint](https://eslint.org/docs/user-guide/getting-started), [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) and [Prettier RC](https://github.com/prettier/prettier)
 
 ## 💻 Getting started
 
