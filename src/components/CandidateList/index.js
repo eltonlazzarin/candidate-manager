@@ -19,11 +19,11 @@ export default function CandidateList({ textInput, candidates }) {
     .map((item) => item.name.first)
     .toString();
 
-  const handleErrorNotification = () => {
+  function handleErrorNotification() {
     return alert(
       'Desculpa, no momento estamos sofrendo algumas instabilidades no sistema. Por favor, retorne mais tarde.',
     );
-  };
+  }
 
   if (isLoading) {
     return (
