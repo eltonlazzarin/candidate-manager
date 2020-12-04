@@ -30,20 +30,20 @@ export default function AllCandidates() {
                 <div>
                   <MdSelectAll size={24} color="#8dc63f" />
                   <Link to="/" className="active">
-                    Todos
+                    All
                   </Link>
                 </div>
               </li>
               <li>
                 <div>
                   <BsCheckAll size={24} color="#a9a9a9" />
-                  <Link to="/candidatesattended">Atendidos</Link>
+                  <Link to="/candidatesattended">Attended</Link>
                 </div>
               </li>
               <li>
                 <div>
                   <MdDeleteSweep size={24} color="#a9a9a9" />
-                  <Link to="/trashcan">Lixeira</Link>
+                  <Link to="/candidatesdeclined">Declined</Link>
                 </div>
               </li>
             </ul>
