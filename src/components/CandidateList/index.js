@@ -21,7 +21,7 @@ export default function CandidateList({ textInput, candidates }) {
 
   function handleErrorNotification() {
     return alert(
-      'Desculpa, no momento estamos sofrendo algumas instabilidades no sistema. Por favor, retorne mais tarde.',
+      'Sorry, we are currently experiencing some instability in the system. Please come back later.',
     );
   }
 
