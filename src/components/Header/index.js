@@ -1,19 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
-
-import api from '../../services/api';
 
 import logo from '../../assets/images/logo.png';
 
 export default function Header({ textInput, setTextInput, isOpen, setIsOpen }) {
-  const [avatarAccount, setAvatarAccount] = useState([]);
-
-  useEffect(() => {
-    api.get('api').then((response) => {
-      setAvatarAccount(response.data.results);
-    });
-  }, []);
-
   return (
     <div className="container">
       <header>
@@ -29,17 +19,14 @@ export default function Header({ textInput, setTextInput, isOpen, setIsOpen }) {
           <input
             value={textInput}
             onChange={(event) => setTextInput(event.target.value)}
-            placeholder="Buscar"
+            placeholder="Search"
           />
 
           <span>
-            {avatarAccount.map((item) => (
-              <img
-                key={item.login.uuid}
-                src={item.picture.thumbnail}
-                alt={item.name.first}
-              />
-            ))}
+            <img 
+              src='https://randomuser.me/api/portraits/thumb/women/1.jpg'
+              alt="Avatar"
+            />
           </span>
         </nav>
       </header>
