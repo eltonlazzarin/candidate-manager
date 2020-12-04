@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Application to manage candidates who are in the selection process at XYZ
+  Application to manage candidates who are in the selection process at Zipyt
 </h3>
 
 <p align="center"></p>
@@ -30,18 +30,17 @@
 
 ## 👨🏻‍💻 About the project
 
-<p>This application was developed in ReactJS and aims to manage candidates who are in the selection process at XYZ.</p>
+<p>Zipyt is a web application that was developed in ReactJS and aims to manage candidates who are in the selection process for a given position. In this case, it is possible to list candidates who were selected for the next phase of the selection process and those who were refused, in addition to having the ability to search for a particular candidate in their respective list, allowing them to view their registration data.</p>
 
 ## 🚀 Technologies
 
 Technologies that I used to develop this frontend app
 
 - [ReactJS](https://nodejs.org/en)
-- [React-Icons](https://github.com/wwayne/react-tooltip)
-- [Axios](https://github.com/axios/axios)
+- [React-Icons](https://github.com/wwayne/react-tooltip) 
 - [Node-SASS](https://github.com/sass/node-sass)
 - [React-Loading-Skeleton](https://github.com/dvtng/react-loading-skeleton)
-- [VS Code](https://code.visualstudio.com) with [ESLint](https://eslint.org/docs/user-guide/getting-started), [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) and [Prettier RC](https://github.com/prettier/prettier)
+- [VS Code](https://code.visualstudio.com) with [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) and [Prettier RC](https://github.com/prettier/prettier)
 
 ## 💻 Getting started
 
