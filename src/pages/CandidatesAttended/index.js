@@ -29,21 +29,21 @@ export default function CandidatesAttended() {
               <li>
                 <div>
                   <MdSelectAll size={24} color="#a9a9a9" />
-                  <Link to="/">Todos</Link>
+                  <Link to="/">All</Link>
                 </div>
               </li>
               <li>
                 <div>
                   <BsCheckAll size={24} color="#8dc63f" />
                   <Link to="/candidatesattended" className="active">
-                    Atendidos
+                    Attended
                   </Link>
                 </div>
               </li>
               <li>
                 <div>
                   <MdDeleteSweep size={24} color="#a9a9a9" />
-                  <Link to="/trashcan">Lixeira</Link>
+                  <Link to="/candidatesdeclined">Declined</Link>
                 </div>
               </li>
             </ul>
