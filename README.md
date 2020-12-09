@@ -1,4 +1,4 @@
-<h1 align="center"> 
+<h1 align="center">
 	<img alt="Discord logo" src="https://github.com/eltonlazzarin/candidate-manager/blob/main/public/gear.svg" height="150px" width="150px" />
 </h1>
 
